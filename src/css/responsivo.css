@@ -1,0 +1,35 @@
+@media (max-width: 1200px) {
+    body {
+        background-color: #f44336;
+    }
+
+    .videobackground {
+        display: none;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30x;
+    }
+
+    .container .mario {
+        max-width: 50%;
+    }
+
+    .container .informations {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .description {
+        color: #fff;
+        text-align: center;
+    }
+
+    .container .trailer-button {
+        background-color: #263238;
+    }
+}
