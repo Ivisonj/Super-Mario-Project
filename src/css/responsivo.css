@@ -41,7 +41,12 @@
         justify-content: center;
         gap: 10px;
     }
-
+    
+    a {
+        display: flex;
+        justify-content: center;
+    }
+    
     .container
     .image-title {
         max-width: 75%;
